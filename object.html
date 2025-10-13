@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        var car = {
+
+            color : " red",
+            brand:"BMW",
+            price :  5000000
+        };
+
+        // accessing the value
+
+        document.write(car.brand);
+
+        // changing the value
+
+        car.color="blue";
+        
+
+        document.write(" " +car.color);
+
+        // add new value
+
+        car.model = "x5";
+
+        document.write("   " +car.model);
+
+        // delete
+
+        delete car.price;
+
+        document.write(" "+car.price);
+    </script>
+    
+</body>
+</html>
