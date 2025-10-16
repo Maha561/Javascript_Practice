@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        // 1. Nan
+
+        document.write ( " 123");
+
+        document.write(isNaN( " " +"123"));
+
+         document.write ( " " +123);
+
+         document.write(isNaN(" " +23));
+
+          document.write ( " " +"hello");
+
+
+          document.write(isNaN(" " +"hello"));
+
+
+          document.write(isNaN(" " +"123abc"));
+
+          //  2 . parse float
+
+          document.write( parseFloat(" 10.23  is the price"));  // 10.23
+
+          document.write(parseFloat("3.14abc"))  // 3.14
+
+          document.write(parseFloat("abc31.4")) // NaN
+
+
+          // parseInteger
+
+           document.write(parseInt("10.99"));  // 10
+
+
+            document.write(parseInt("45abc"));  // 45
+
+             document.write(parseInt("abc45"));  // 45
+
+             // string
+
+             document.write(String(123));
+
+             document.write(String([1,3,5]));
+
+              document.write(String(true));
+
+              // eval
+
+              document.write(eval(2+5));
+
+               document.write(eval("var x= 4; x+10"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
