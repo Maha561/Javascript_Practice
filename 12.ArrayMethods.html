@@ -1,1 +1,72 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        // 1. concat()
+
+        var a =[1,2];
+        var b =[3,4];
+        var c = a.concat(b);
+        
+        document.write(c);
+
+        // every
+
+        var marks = [40,50,60]
+
+       var result = marks.every(function(n){
+
+        return n>=35;
+       });
+
+       document.write(result);
+
+       // indexof()
+
+       var fruit =["apple ","apple","banana","mango","mamgo"];
+
+      document.write(fruit.indexOf("apple"));
+      document.write(fruit.indexOf("mango"));
+
+      var ipl = ["CSK" ," RCB","MI"]
+      document.write(ipl.join("*"));
+
+      // pop
+
+       var fruit =["apple ","apple","banana","mango","mango"];
+
+       document.write(fruit.pop());
+
+       // push 
+
+      var color = ["blue","green","gold"];
+
+      color.push("silver");
+
+      document.write(color);
+
+      // reverse
+
+      var num = [1,3,2];
+
+      document.write(num.reverse());
+
+      // sort
+
+      var number =[60,50,40,38];
+      document.write(number.sort());
+
+
+
+    </script>
+    
+</body>
+</html>
